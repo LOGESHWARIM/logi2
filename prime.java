@@ -10,6 +10,8 @@ class Ideone
 		int n,i,m=0,flag=0;      
 		Scanner s=new Scanner(System.in);
 		n=s.nextInt();
+		if(n<=1000)
+		{
 		m=n/2;      
 		if(n==0||n==1)
 		{  
@@ -30,6 +32,7 @@ class Ideone
 			{	 
    				System.out.println("yes"); 
 			}
+		}
 		}
 	}
 }
