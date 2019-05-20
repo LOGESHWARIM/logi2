@@ -13,6 +13,8 @@ class Ideone
 		Scanner s=new Scanner(System.in);
 		num=s.nextInt();
 		original=num;
+		if(num<=1000)
+		{
 		while(num!=0)
 		{
 			remainder=num%10;
@@ -27,6 +29,6 @@ class Ideone
 		{
 			System.out.println("no");
 		}
-		
+		}
 	}
 }
